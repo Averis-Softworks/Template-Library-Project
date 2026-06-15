@@ -1,10 +1,14 @@
-# TODO
+<!-- markdownlint-disable-file MD033 -->
 
-## Template Library Project
+# Project
 
-TODO list for this template, will update to an example format later down the line.
+Project Description
 
-### Todo
+## Todo
 
-- [ ] Configure VitePress
-- [ ] Configure rojo default.project.json
+- [ ] Update Rojo default.project.json
+- [ ] Configure VitePress config.mts
+
+## In Progress
+
+## Done ✓
