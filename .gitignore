@@ -1,0 +1,20 @@
+# Local builds
+*.rbxlx
+*.rbxl
+*.rbxm
+*.rbxmx
+
+# Roblox Studio lock files
+/*.rbxlx.lock
+/*.rbxl.lock
+
+# Unncessary Vitepress files 
+docs/.vitepress/dist
+docs/.vitepress/cache
+
+# Wally
+/wally.lock
+/Packages
+
+sourcemap.json
+.vscode
