@@ -6,9 +6,10 @@ Project Description
 
 ## Todo
 
-- [ ] Update Rojo default.project.json
-- [ ] Configure VitePress config.mts
-
 ## In Progress
 
 ## Done ✓
+
+- [x] Update Rojo `default.project.json`.
+- [x] Configure VitePress `config.mts`.
+- [x] Setup GitHub Actions for building docs.
