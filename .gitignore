@@ -5,16 +5,19 @@
 *.rbxmx
 
 # Roblox Studio lock files
-/*.rbxlx.lock
-/*.rbxl.lock
+*.rbxlx.lock
+*.rbxl.lock
 
-# Unncessary Vitepress files 
-docs/.vitepress/dist
-docs/.vitepress/cache
-
-# Wally
-/wally.lock
-/Packages
-
+# Local editor files
 sourcemap.json
 .vscode
+
+# Unncessary Vitepress files 
+/docs/.vitepress/dist
+/docs/.vitepress/cache
+
+/node_modules
+
+# Local wally files
+/Packages
+/wally.lock

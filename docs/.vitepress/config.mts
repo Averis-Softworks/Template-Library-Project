@@ -2,27 +2,38 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Template Library Project",
-  description: "A VitePress Site",
-  themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
+	title: "Template Library Project",
+	description: "A VitePress Site",
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+	base: "/Template-Library-Project/",
+	cleanUrls: true,
+	lastUpdated: true,
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  }
+	themeConfig: {
+		// https://vitepress.dev/reference/default-theme-config
+		nav: [
+			{ text: 'Home', link: '/' },
+			{ text: 'Examples', link: '/markdown-examples' }
+		],
+
+		sidebar: [
+			{
+				text: 'Examples',
+				items: [
+					{ text: 'Markdown Examples', link: '/markdown-examples' },
+					{ text: 'Runtime API Examples', link: '/api-examples' }
+				]
+			}
+		],
+
+		socialLinks: [
+			{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+		],
+
+		search: {
+			provider: "local"
+		},
+
+		outline: [2, 3],
+	}
 })
